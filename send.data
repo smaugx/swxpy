@@ -1,0 +1,109 @@
+
+df -h:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/vda1       3.8G  2.8G  826M  78% /
+tmpfs           3.9G   40K  3.9G   1% /dev/shm
+/dev/vda3        16G   45M   15G   1% /root/ssd1
+/dev/vdb1        40G   13G   26G  33% /root/ssd2
+
+tail -n 10 ./gunicorn.err:
+
+
+tail -n 10 ./gunicorn.log:
+Accept: */*
+Content-Type: application/json
+Accept-Encoding: gzip, deflate
+
+
+post
+
+
+10724190
+Co
+tail -n 20 ./uploadlog.log:
+/root/iruka/data/kuaishou_08-04-08/kuaishou_08-04-08_13.log load and post success!
+all done!
+used: 10.46
+realtime: 226 
+08-04 10:15:01:execute /root/crontab.sh 
+/root/iruka/data/kuaishou.log not found
+ 
+08-04 10:30:02:execute /root/crontab.sh 
+/root/iruka/data/kuaishou.log not found
+ 
+
+du -h ./kuaishou.log:
+
+ls /root/iruka/data:
+date.py
+dtest.py
+kuaishou_08-03-11.log
+kuaishou_08-03-12.log
+kuaishou_08-03-13.log
+kuaishou_08-03-14.log
+kuaishou_08-03-15.log
+kuaishou_08-03-16.log
+kuaishou_08-03-17.log
+kuaishou_08-03-18.log
+kuaishou_08-03-19.log
+kuaishou_08-03-20.log
+kuaishou_08-03-21.log
+kuaishou_08-03-22.log
+kuaishou_08-03-23.log
+kuaishou_08-04-00.log
+kuaishou_08-04-01.log
+kuaishou_08-04-02.log
+kuaishou_08-04-03.log
+kuaishou_08-04-04.log
+kuaishou_08-04-05.log
+kuaishou_08-04-06.log
+kuaishou_08-04-07.log
+kuaishou_08-04-08.log
+pull.sh
+
+du -h kuaishou*:
+4.0K	kuaishou_08-03-11.log
+4.0K	kuaishou_08-03-12.log
+4.0K	kuaishou_08-03-13.log
+4.0K	kuaishou_08-03-14.log
+4.0K	kuaishou_08-03-15.log
+4.0K	kuaishou_08-03-16.log
+4.0K	kuaishou_08-03-17.log
+4.0K	kuaishou_08-03-18.log
+4.0K	kuaishou_08-03-19.log
+4.0K	kuaishou_08-03-20.log
+4.0K	kuaishou_08-03-21.log
+4.0K	kuaishou_08-03-22.log
+4.0K	kuaishou_08-03-23.log
+4.0K	kuaishou_08-04-00.log
+4.0K	kuaishou_08-04-01.log
+4.0K	kuaishou_08-04-02.log
+4.0K	kuaishou_08-04-03.log
+4.0K	kuaishou_08-04-04.log
+4.0K	kuaishou_08-04-05.log
+4.0K	kuaishou_08-04-06.log
+4.0K	kuaishou_08-04-07.log
+4.0K	kuaishou_08-04-08.log
+
+cat /root/iruka/data/kuaishou_08-03-11.log: 3737785
+cat /root/iruka/data/kuaishou_08-03-12.log: 4111279
+cat /root/iruka/data/kuaishou_08-03-13.log: 4314902
+cat /root/iruka/data/kuaishou_08-03-14.log: 4181043
+cat /root/iruka/data/kuaishou_08-03-15.log: 3956396
+cat /root/iruka/data/kuaishou_08-03-16.log: 3963213
+cat /root/iruka/data/kuaishou_08-03-17.log: 4072494
+cat /root/iruka/data/kuaishou_08-03-18.log: 4772667
+cat /root/iruka/data/kuaishou_08-03-19.log: 4589971
+cat /root/iruka/data/kuaishou_08-03-20.log: 4987982
+cat /root/iruka/data/kuaishou_08-03-21.log: 5433015
+cat /root/iruka/data/kuaishou_08-03-22.log: 4838811
+cat /root/iruka/data/kuaishou_08-03-23.log: 4078691
+cat /root/iruka/data/kuaishou_08-04-00.log: 2851842
+cat /root/iruka/data/kuaishou_08-04-01.log: 1723194
+cat /root/iruka/data/kuaishou_08-04-02.log: 1071463
+cat /root/iruka/data/kuaishou_08-04-03.log: 709479
+cat /root/iruka/data/kuaishou_08-04-04.log: 553714
+cat /root/iruka/data/kuaishou_08-04-05.log: 713420
+cat /root/iruka/data/kuaishou_08-04-06.log: 1371976
+cat /root/iruka/data/kuaishou_08-04-07.log: 2198645
+cat /root/iruka/data/kuaishou_08-04-08.log: 2814228

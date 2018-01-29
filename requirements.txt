@@ -1,0 +1,15 @@
+certifi==2017.7.27.1
+chardet==3.0.4
+future==0.16.0
+idna==2.5
+itchat==1.2.32
+olefile==0.44
+Pillow==4.2.1
+psutil==5.2.2
+pypng==0.0.18
+PyQRCode==1.2.1
+requests==2.18.2
+tornado==4.5.1
+urllib3==1.22
+wechat-sender==0.1.4
+wxpy==0.3.9.8
